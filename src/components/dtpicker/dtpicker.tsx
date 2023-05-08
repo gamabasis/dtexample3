@@ -12,9 +12,8 @@ export default function Dtpicker(){
     <>
         <Datetime  
         inputProps={ inputProps }
-        value={datetime}
-        onChange = {setdatetime}
-        />
+        value={datetime}        
+        />        
     </>
     )
 }
